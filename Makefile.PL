@@ -26,7 +26,7 @@ WriteMakefile(
          configure => {
             requires => {
                'ExtUtils::MakeMaker'  => 6.52,
-               'File::Share::Install' => 0,
+               'File::ShareDir::Install' => 0,
             },
          },
          runtime => {
